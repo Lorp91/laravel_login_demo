@@ -10,7 +10,7 @@
 </head>
 <body class="w-screen h-screen bg-gray-800 text-white flex justify-center items-center">
 <header class="absolute top-0 left-0 right-0 w-screen h-1/4 flex justify-center items-center gap-50">
-    <h1 class="text-3xl font-bold">LoginDemo</h1>
+    <a href="{{ route('home') }}" class="text-3xl font-bold">LoginDemo</a>
 
     <div class="p-4 space-x-8">
         @auth
