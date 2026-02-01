@@ -4,8 +4,8 @@
 
         <h3 class="text-2xl font-semibold text-center">Registrierung</h3>
 
-        <x-form.field name="name" label="Name"/>
-        <x-form.field type="email" name="email" label="E-Mail"/>
+        <x-form.field name="name" label="Name" placeholder="Max Mustermann"/>
+        <x-form.field type="email" name="email" label="E-Mail" placeholder="max@mustermann.de"/>
         <x-form.field type="password" name="password" label="Passwort"/>
 
         <div class="mt-8 justify-self-end space-x-4">
