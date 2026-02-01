@@ -14,9 +14,10 @@ In diesem Projekt geht es um eine Uebungsaufgabe zum Thema Login in Laravel.
 
 1. `.env` einrichten(`.env.example` kopieren und das "example" entfernen)
 2. `composer install` um Composer Abhaengigkeiten zu installieren
-3. `./vendor/bin/sail up -d` um Docker-Container zu starten
-4. `./vendor/bin/sail artisan migrate` fuer die Datenbank-migration
-5. Optional: Vite fuer HMR(Hot Module Replacement)
+3. `./vendor/bin/sail artisan key:generate` um APP_KEY zu generieren
+4. `./vendor/bin/sail up -d --build` um Docker-Container zu starten
+5. `./vendor/bin/sail artisan migrate` fuer die Datenbank-migration
+6. Vite fuer HMR(Hot Module Replacement)
     - `./vendor/bin/sail npm i` packages installieren
     - `./vendor/bin/sail npm run dev` vite starten
 
